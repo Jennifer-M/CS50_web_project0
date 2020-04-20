@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--<link rel="sylesheet" href = "inheritance.css">-->
+	<style>
+		header{
+			background-color: powderblue;
+			border-radius:10px;
+			width: 95%;
+			height: 20%;
+			padding: 10px;
+			margin: 0px 10px 10px 10px;
+			
+		}
+		nav ul{
+			list-style-type:none;
+			margin:0;
+			padding:0;
+			overflow:hidden;	
+		}
+		nav li{
+			display:inline;
+			float: left;
+			text-align:center;
+		}
+		nav a{
+			display:block;
+			padding:10px;
+			margin:5px;
+			background-color:powderblue;
+			border-radius:10px 10px 0 0;
+			text-decoration:none;
+
+		}
+		section div{
+			padding:30px;
+			word-break: keep-all;
+		}
+		section p{
+			font-size:20px;
+		}
+		footer{
+			background-color:powderblue;
+			position: fixed;
+			bottom:0;
+			vertical-align:bottom;
+			width:95%;
+			height:5%;
+			border-radius:10px;
+			padding:10px;
+			margin: 0px 10px 10px 10px;
+		}
+		@media(max-height:800px){
+			footer{position:static;}
+		}
+	</style>
+    </head>
+    <body>
+	<header>
+		<h1>
+		Jennifer's Webpage
+		</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><h2><a href= "Home.html">Home</a></h2></li>
+			<li><h2><a href= "Projects.html">Projects</a></h2></li>
+			<li><h2><a href= "Pictures.html">Pictures</a></h2></li>
+			<li><h2><a href= "Contact.html">Contacts</a></h2></li>
+			<li></li>
+		</ul>
+	</nav>
+	<section>
+		<img src="selfie.jpg" alt="selfie" width="15%" height="15%" align="left" style="margin:10px 10px;">
+		<div class="section1">
+			<p>Hello! My name is Jennifer Ma. I am currently a Master's student at the University of Michigan.
+			I like to bike, read and work on small projects. Currently, I am practicing social distancing by staying at home,
+			so I decided to build my own webpage from scratch and maybe help others to build their own in the future.
+			I would like to say a lot about myself here, yet I understand that somebody might not want to see them.
+			Therefore, if you would like to stop reading, you could see some of my projects in the Project tab above
+			or view some of my pictures under the Picture tab. 
+			</p>
+			<p>Okay, keep moving. I am actually an introvert. And I would like to say a lot actually because I would like to test 
+			my text wrapping function and see whether it works. Yet please do enjoy the reading. By the way, the text wraping function 
+			worked as expected. Okay. I am down writing. Let's go look at <a href="Projects.html"> my projects</a> and 
+			<a href="Pictures.html"> my pictures</a>
+			</p>
+			
+		</div>		
+
+
+
+
+		<a href = "hello.html" target="_blank"> Click to open hello.html</a>
+        	Hello, world!	
+	</section>
+	<footer>
+		<div>
+			You can reach me at 389-343-2483
+		</div>
+
+	</footer>
+    </body>
+</html>

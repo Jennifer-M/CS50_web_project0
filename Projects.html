@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--<link rel="sylesheet" href = "inheritance.css">-->
+	<style>
+		header{
+			background-color: powderblue;
+			border-radius:10px;
+			width: 95%;
+			height: 20%;
+			padding: 10px;
+			margin: 0px 10px 10px 10px;
+			
+		}
+		nav ul{
+			list-style-type:none;
+			margin:0;
+			padding:0;
+			overflow:hidden;	
+		}
+		nav li{
+			display:inline;
+			float: left;
+			text-align:center;
+		}
+		nav a{
+			display:block;
+			padding:10px;
+			margin:5px;
+			background-color:powderblue;
+			border-radius:10px 10px 0 0;
+			text-decoration:none;
+
+		}
+		section div{
+			padding:30px;
+			word-break: keep-all;
+		}
+		section p{
+			font-size:20px;
+		}
+		footer{
+			background-color:powderblue;
+			position: fixed;
+			bottom:0;
+			vertical-align:bottom;
+			width:95%;
+			height:5%;
+			border-radius:10px;
+			padding:10px;
+			margin: 0px 10px 10px 10px;
+		}
+		@media(max-height:800px){
+			footer{position:static;}
+		}
+		ol{
+			font-size:20px;
+		}
+	</style>
+    </head>
+    <body>
+	<header>
+		<h1>
+		Jennifer's Webpage
+		</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><h2><a href= "Home.html">Home</a></h2></li>
+			<li><h2><a href= "Projects.html">Projects</a></h2></li>
+			<li><h2><a href= "Pictures.html">Pictures</a></h2></li>
+			<li><h2><a href= "Contact.html">Contacts</a></h2></li>
+			<li></li>
+		</ul>
+	</nav>
+	<section>
+		<div class="section1">
+			<ol>
+				<li>
+				This webpage project is programmed based on HTML5 and CSS style sheet. For more information on HTML5 and CSS, 
+				please visit <a href="https://www.edx.org">Edx</a>. 
+				</li>
+			</ol>
+
+		</div>			
+	</section>
+	<footer>
+		<div>
+			You can reach me at 389-343-2483
+		</div>
+
+	</footer>
+    </body>
+</html>
